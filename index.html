@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Figmaland Project</title>
     <link rel="shortcut icon" href="img/figma-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -115,129 +116,113 @@
                 <a href="#" class="free-plan__order-button">Order Now</a>
             </div>
 
-            <div>
+            <div class="pricing__standard-plan standard-plan">
+                <p class="standard-plan__sub-title">Standard</p>
+                <p class="standard-plan__text">Organize across all apps by hand</p>
+                <p class="standard-plan__price"><span class="huge-number">10</span> <span class="dollar-sign">$</span>
+                    Per
+                    Month</p>
 
-                <h3>Standard</h3>
-                <h5>Organize across all apps by hand</h5>
-                <h1>10</h1>
-                <h3>$</h3>
-                <h5>Per Month</h5>
-
-                <ul>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
+                <ul class="standard-plan__features features">
+                    <li class="features__text">Pricing Feature</li>
+                    <li class="features__text">Pricing Feature</li>
+                    <li class="features__text">Pricing Feature</li>
+                    <li class="features__text">Pricing Feature</li>
+                    <li class="features__text">Pricing Feature</li>
                 </ul>
-
-                <form>
-                    <button type="button">Order Now</button>
-                </form>
+                <a href="#" class="standard-plan__order-button">Order Now</a>
 
             </div>
 
-            <div>
+            <div class="pricing__business-plan business-plan">
+                <p class="business-plan__sub-text">Business</p>
+                <p class="business-plan__text">Organize across all apps by hand</p>
+                <p class="business-plan__price"><span class="huge-numbers">99</span> <span class="dollar-signs">$</span>
+                    Per
+                    Month</p>
 
-                <h3>Business</h3>
-                <h5>Organize across all apps by hand</h5>
-                <h1>99</h1>
-                <h3>$</h3>
-                <h5>Per Month</h5>
-
-                <ul>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
-                    <li><a href="">Pricing Feature</a> </li>
+                <ul class="business-plan__feature feature">
+                    <li class="feature__text">Pricing Feature</li>
+                    <li class="feature__text">Pricing Feature</li>
+                    <li class="feature__text">Pricing Feature</li>
+                    <li class="feature__text">Pricing Feature</li>
+                    <li class="feature__text">Pricing Feature</li>
                 </ul>
-
-                <form>
-                    <button type="button">Order Now</button>
-                </form>
+                <a href="#" class="business-plan__order-button">Order Now</a>
 
             </div>
         </section>
 
+        <section class="contact-us">
+            <div class="contact-us__info info">
+                <h3 class="info__title">Contact Us</h3>
+                <p class="info__text">Most calendars are designed for teams. </p>
+                <div class="contact-us__social-networks social-networks">
+                    <img class="social-networks__twitter" src="img/twitter.jpg" alt="Twitter social network logo">
+                    <img class="social-networks__facebook" src="img/facebook.jpg" alt="Facebook social network logo">
+                    <img class="social-networks__linkedin" src="img/linkedin.jpg" alt="Linkedin social network logo">
+                </div>
+                <div class="contact-us__details detail">
+                    <img class="details__map-pointer" src="img/pointer.jpg" alt="Small map pointer sign">
+                    <p class="details__text">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+                    <img class="details__phone-img" src="img/phone.jpg" alt="Smartphone sign">
+                    <p class="details__phone-number">(843) 555-0130</p>
+                    <img class="details__envelope-img" src="img/email.jpg" alt="Small envelope sign">
+                    <p class="details__email">willie.jennings@example.com</p>
+                </div>
 
+                <div class="contact-us__form form">
+                    <p class="form__title">Contact Us</p>
+                    <form>
+                        <p><input type="text" name="user-name" placeholder="Your Name" required></p>
+                        <p><input type="text" name="user-email-address" placeholder="Your Email" required></p>
+                        <p><textarea name="message" cols="30" rows="10"></textarea></p>
+                        <input type="submit" value="Send">
+                    </form>
+
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-        <div>
-
-            <h2>Contact Us</h2>
-            <h4>Most calendars are designed for teams. </h4>
-
-            <img src="img/twitter.jpg" alt="twitter-logo">
-            <img src="img/facebook.jpg" alt="facebook-logo">
-            <img src="img/linkedin.jpg" alt="linkedin-logo">
-
-            <h5><img src="img/pointer.jpg" alt="map-pointer"> 6386 Spring St undefined Anchorage, Georgia 12473 United
-                States</h5>
-            <h5><img src="img/phone.jpg" alt="phone-logo"> (843) 555-0130</h5>
-            <h5><img src="img/email.jpg" alt="email-logo"> willie.jennings@example.com</h5>
-
-        </div>
-
-        <div>
-
-            <h3>Contact Us</h3>
-            <form>
-                <p><input type="text" name="user-name" placeholder="Your Name" required></p>
-                <p><input type="text" name="user-email-address" placeholder="Your Email" required></p>
-                <p><input type="text" name="user-message" placeholder="Your Message" required></p>
-                <button type="submit">Send</button>
-            </form>
-
-        </div>
-
-        <div>
-
-            <h3>Annette Steward</h3>
-
-            <ul>
-
-                <li>Jennie Cooper</li>
-                <li>Julie Henry</li>
-                <li>Johnny Murphy</li>
-                <li>Gregory Mccoy</li>
-                <li>Marvin Mckinney</li>
-
+    <footer class="footer">
+        <div class="footer__list">
+            <p class="footer__title">Annette Steward</p>
+            <ul class="footer__name-list name-list">
+                <li class="name-list__item">Jennie Cooper</li>
+                <li class="name-list__item">Julie Henry</li>
+                <li class="name-list__item">Johnny Murphy</li>
+                <li class="name-list__item">Gregory Mccoy</li>
+                <li class="name-list__item">Marvin Mckinney</li>
             </ul>
 
-            <h3>Annette Steward</h3>
-
-            <ul>
-
-                <li>Jennie Cooper</li>
-                <li>Julie Henry</li>
-                <li>Johnny Murphy</li>
-                <li>Gregory Mccoy</li>
-                <li>Marvin Mckinney</li>
-
+            <p class="footer__title">Annette Steward</p>
+            <ul class="footer__name-list name-list">
+                <li class="name-list__item">Jennie Cooper</li>
+                <li class="name-list__item">Julie Henry</li>
+                <li class="name-list__item">Johnny Murphy</li>
+                <li class="name-list__item">Gregory Mccoy</li>
+                <li class="name-list__item">Marvin Mckinney</li>
             </ul>
 
-            <h3>Annette Steward</h3>
-
-            <ul>
-
-                <li>Jennie Cooper</li>
-                <li>Julie Henry</li>
-                <li>Johnny Murphy</li>
-                <li>Gregory Mccoy</li>
-                <li>Marvin Mckinney</li>
-
+            <p class="footer__title">Annette Steward</p>
+            <ul class="footer__name-list name-list">
+                <li class="name-list__item">Jennie Cooper</li>
+                <li class="name-list__item">Julie Henry</li>
+                <li class="name-list__item">Johnny Murphy</li>
+                <li class="name-list__item">Gregory Mccoy</li>
+                <li class="name-list__item">Marvin Mckinney</li>
             </ul>
-
-            <h5><img src="img/pointer.jpg" alt="map-pointer"> 6386 Spring St undefined Anchorage, Georgia 12473 United
-                States</h5>
-            <h5><img src="img/phone.jpg" alt="phone-logo"> (843) 555-0130</h5>
-
-            <img src="img/twitter.jpg" alt="twitter-logo">
-            <img src="img/facebook.jpg" alt="facebook-logo">
-            <img src="img/linkedin.jpg" alt="linkedin-logo">
-
+            <div class="footer__contact-details contact-details">
+                <img class="contact-details__map-pointer" src="img/pointer.jpg" alt="Small map pointer sign">
+                <p class="contact-details__info">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+                <img class="contact-details__phone" src="img/phone.jpg" alt="Smartphone small sign">
+                <p class="contact-details__phone-number">(843) 555-0130</p>
+            </div>
+            <div class="footer__social-net social-net">
+                <img class="social-net__twitter" src="img/twitter.jpg" alt="Twitter social network logo">
+                <img class="social-net__facebook" src="img/facebook.jpg" alt="Facebook social network logo">
+                <img class="social-net__linkedin" src="img/linkedin.jpg" alt="Linkedin social network logo">
+            </div>
         </div>
 
     </footer>
