@@ -1,18 +1,22 @@
- @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
+  * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-html{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-position: relative;
-width: 418px;
-height: 11640.77px;
-background: #FFFFFF;
-}
+ :root {
+    font-family: 'Graphik';
+    src: url(fonts/GraphikRegular.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+ }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ img {
+     display: block;
+     width: 100%;
+ }
+ 
+ .container {
+    max-width: 400px;
+    margin: auto;
+ }
