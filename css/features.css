@@ -1,5 +1,9 @@
+.features {
+    margin-top: 45px;
+}
+
 .features__title {
-    color: #252B42;
+    color: var(--title-color);
     font-size: var(--title-font-size);
     font-weight: 400;
     text-align: center;
@@ -9,7 +13,7 @@
 }
 
 .features__text {
-    color: #374754;
+    color: var(--text-color);
     font-size: var(--sub-title-font-size);
     font-weight: 400;
     text-align: center;
@@ -19,9 +23,8 @@
 }
 
 .features__video-screen {
-    padding-top: 58px;
-    width: 323px;
-    align-items: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
 }
 
 .promises__figures{
@@ -32,7 +35,7 @@
 }
 
 .promises__sub-title {
-    color: #252B42;
+    color: var(--text-color);
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -42,7 +45,7 @@
 }
 
 .promises__text {
-    color: #374754;
+    color: var(--text-color);
     font-size: 18px;
     font-weight: 400;
     text-align: center;

@@ -9,8 +9,16 @@
 :root {
     --main-color: black;
     --accent-color: #2091F9;
+    --title-color: #252B42;
+    --text-color: #374754;
+    --light-text-color: #FFFFFF;
+    --input-form-background-color: #F4F4F4;
+    --border-color: #E8E8E8;
     --title-font-size: 42px;
     --sub-title-font-size: 26px;
+    --small-elements-font-size: 18px;
+    --button-text-font-size: 20px;
+    --input-form-font-size: 12px;
     font-family: 'Nunito Sans', sans-serif;
     color: var(--main-color);
 }
@@ -21,6 +29,22 @@ img {
 }
 
 .container {
-    max-width: 328px;
+    max-width: 1000px;
     margin: auto;
+}
+
+.try-button {
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    font-size: var(--button-text-font-size);
+    font-weight: 700;
+    text-decoration: none;
+    width: 236px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 0px;
+    border-radius: 35px;
+    margin: 69px auto;
 }

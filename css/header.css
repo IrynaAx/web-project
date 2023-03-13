@@ -1,9 +1,9 @@
 .header {
-    background-image: url(../img/header_background_image.jpg);
+    background-image: url(../img/background-image.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 843px;
-    width: 400px;
+    background-repeat: no-repeat;
+    padding: 20px;
 }
 
 .header-logo {
@@ -14,7 +14,7 @@
 }
 
 .header-title {
-    color: white;
+    color: var(--light-text-color);
     font-size: var(--title-font-size);
     font-weight: 400;
     text-align: center;
@@ -24,27 +24,11 @@
 }
 
 .header__text {
-    color: white;
+    color: var(--light-text-color);
     font-size: var(--sub-title-font-size);
     font-weight: 300;
     letter-spacing: 0.2px;
     padding: 22px 32px 0 32px;
     text-align: center;
     line-height: 40px;
-}
-
-.header__button {
-    background-color: var(--accent-color);
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    width: 236px;
-    height: 52px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px 0px;
-    border-radius: 35px;
-    margin: 69px auto;
-
 }

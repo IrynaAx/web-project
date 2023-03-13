@@ -1,0 +1,29 @@
+.partnership {
+    margin-top: 60px;
+}
+
+.partners__title {
+    color: var(--title-color);
+    font-size: var(--title-font-size);
+    font-weight: 400;
+    text-align: center;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+}
+
+.partners__text {
+    color: var(--text-color);
+    font-size: var(--sub-title-font-size);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.partners-logo {
+    padding: 20px;
+    max-width: 200px;
+    height: 92px;
+    margin: 0 auto 30px;
+    border: 1px solid var(--border-color);
+}
