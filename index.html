@@ -8,26 +8,38 @@
     <title>My Figmaland Project</title>
     <link rel="shortcut icon" href="img/figma-logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="header container">
-        <img class="header-logo" src="img/darklogo.png" alt="Figmaland logo image with small figures">
-        <nav class="header-nav container">
-             <!-- <ul class="header-nav__menu"> -->
-                <!-- <li class="header-nav__menu-item">Home</li> -->
-                <!-- <li class="header-nav__menu-item">Product</li> -->
-                <!-- <li class="header-nav__menu-item">Pricing</li> -->
-                <!-- <li class="header-nav__menu-item">About</li> -->
-                <!-- <li class="header-nav__menu-item">Contacts</li> -->
-            <!-- </ul> -->
+    <header id="home" class="header container">
+        <nav class="navbar navbar-expand-lg navbar-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/darklogo.png" alt="Figmaland logo image with small figures" width="186" height="58">
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="custom-toggler-icon"><img src="img/burger-menu-icon.png" alt="Three lines"> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#product">Product</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <h1 class="header-title">The best products start with Figma</h1>
         <p class="header__text">Most calendars are designed for teams.</p>
         <a href="#" class="try-button">Try For Free</a>
     </header>
     <main>
-        <section class="features container">
+        <section id="about" class="features container">
             <h3 class="features__title">Features</h3>
             <p class="features__text">Most calendars are designed for teams.</p>
             <img class="features__video-screen" src="img/laptop-screen.svg" alt="Screenshot of the video to play">
@@ -55,7 +67,7 @@
 
         </section>
 
-        <section class="trial">
+        <section id="product" class="trial">
             <div class="trial__encouragement encouragement">
                 <h3 class="encouragement__title">Fastest way to organise</h3>
                 <p class="encouragement__text">Most calendars are designed for teams.</p>
@@ -104,7 +116,7 @@
             </div>
         </section>
 
-        <section class="pricing">
+        <section id="pricing" class="pricing">
             <div class="pricing__sub-plan sub-plan">
                 <h3 class="sub-plan__title">Pricing</h3>
                 <p class="sub-plan__text">Most calendars are designed for teams. </p>
@@ -161,7 +173,7 @@
             </div>
         </section>
 
-        <section class="contact-us">
+        <section id="contacts" class="contact-us">
             <div class="contact-us__info info">
                 <h3 class="info__title">Contact Us</h3>
                 <p class="info__text">Most calendars are designed for teams. </p>
@@ -234,6 +246,9 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

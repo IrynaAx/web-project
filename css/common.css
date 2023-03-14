@@ -21,6 +21,7 @@
     --input-form-font-size: 12px;
     font-family: 'Nunito Sans', sans-serif;
     color: var(--main-color);
+    scroll-behavior: smooth;
 }
 
 img {
