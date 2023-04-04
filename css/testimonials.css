@@ -1,0 +1,71 @@
+.testimonials {
+    padding-top: 60px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+.feedback__title {
+    color: var(--title-color);
+    font-size: var(--title-font-size);
+    font-weight: 400;
+    text-align: center;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+}
+
+.feedback__ibm-logo {
+    height: 40px;
+    margin: 80px auto 30px;
+    width: 110px;
+}
+
+.feedback__text {
+    color: var(--text-color);
+    font-size: var(--input-form-font-size);
+    font-weight: 700;
+    text-align: center;
+    padding: 27px 0 27px;
+    margin: 0 20px 30px 20px;
+}
+
+.feedback__woman-avatar {
+    height: 42px;
+    width: 42px;
+    float: left;
+    margin-right: 8px;
+}
+
+.example__title {
+    text-align: left;
+    font-size: var(--input-form-font-size);
+    font-weight: 700;
+    padding-bottom: 0;
+    color: var(--text-color);
+}
+
+.example__text {
+    text-align: left;
+    font-size: var(--input-form-font-size);
+    font-weight: 400;
+    color: var(--title-color);
+}
+
+.feedback__example {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback__more-button {
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    font-size: var(--button-text-font-size);
+    font-weight: 700;
+    text-decoration: none;
+    width: 236px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 35px;
+    margin: 69px auto;
+}

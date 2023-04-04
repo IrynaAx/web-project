@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header id="home" class="header container">
+    <header id="home" class="header">
         <nav class="navbar navbar-expand-lg navbar-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -109,9 +109,10 @@
                 <img class="feedback__ibm-logo" src="img/ibm.jpg" alt="IBM company logo image">
                 <p class="feedback__text">Most calendars are designed for teams.
                     Slate is designed for freelancers who want a simple way to plan their schedule.</p>
-                <img class="feedback__woman-avatar" src="img/woman-avatar.jpg" alt="Jenny from IBM company photo">
-                <p>Organize across</p>
-                <p>Ui designer</p>
+                <div class="feedback__example example">
+                    <img class="feedback__woman-avatar" src="img/woman-avatar.jpg" alt="Jenny from IBM company photo">
+                    <p class="example__title">Organize across <br><span class="example__text">Ui designer</span></p>
+                </div>
                 <a href="#" class="feedback__more-button">More Testimonials</a>
             </div>
         </section>
@@ -122,55 +123,67 @@
                 <p class="sub-plan__text">Most calendars are designed for teams. </p>
             </div>
 
-            <div class="pricing__free-plan free-plan">
-                <p class="free-plan__sub-title">FREE</p>
-                <p class="free-plam__text">Organize across all apps by hand</p>
-                <p class="free-plan__price"><span class="huge-numbers">0</span> <span class="dollar-signs">$</span> Per
-                    Month</p>
-
-                <ul class="free-plan__feature feature">
+            <div class="pricing__container">
+                <div class="pricing__plan">
+                  <p class="pricing__sub-title">FREE</p>
+                  <p class="pricing__text">Organize across all apps by hand</p>
+                  <div class="pricing__plan-price">
+                     <p class="huge-numbers">0</p>
+                     <p class="pricing__period"><span class="dollar-signs">$</span> Per Month</p>
+                 </div>
+              
+                  <ul class="pricing__feature feature">
                     <li class="feature__text">Pricing Feature</li>
                     <li class="feature__text">Pricing Feature</li>
                     <li class="feature__text">Pricing Feature</li>
                     <li class="feature__text">Pricing Feature </li>
                     <li class="feature__text">Pricing Feature </li>
-                </ul>
-                <a href="#" class="free-plan__order-button">Order Now</a>
-            </div>
-
-            <div class="pricing__standard-plan standard-plan">
-                <p class="standard-plan__sub-title">Standard</p>
-                <p class="standard-plan__text">Organize across all apps by hand</p>
-                <p class="standard-plan__price"><span class="huge-number">10</span> <span class="dollar-sign">$</span>
-                    Per Month</p>
-
-                <ul class="standard-plan__features features">
-                    <li class="features__text">Pricing Feature</li>
-                    <li class="features__text">Pricing Feature</li>
-                    <li class="features__text">Pricing Feature</li>
-                    <li class="features__text">Pricing Feature</li>
-                    <li class="features__text">Pricing Feature</li>
-                </ul>
-                <a href="#" class="standard-plan__order-button">Order Now</a>
-
-            </div>
-
-            <div class="pricing__business-plan business-plan">
-                <p class="business-plan__sub-text">Business</p>
-                <p class="business-plan__text">Organize across all apps by hand</p>
-                <p class="business-plan__price"><span class="huge-numbers">99</span> <span class="dollar-signs">$</span>
-                    Per Month</p>
-
-                <ul class="business-plan__feature feature">
+                  </ul>
+                  <a href="#" class="pricing__order-button">
+                    Order Now
+                  </a>
+                </div>
+              
+                <div class="pricing__standard-plan">
+                  <p class="pricing__sub-title">Standard</p>
+                  <p class="pricing__text">Organize across all apps by hand</p>
+                  <div class="pricing__plan-price">
+                     <p class="huge-numbers">10</p>
+                     <p class="pricing__period"><span class="dollar-signs">$</span> Per Month</p>
+                  </div>
+              
+                  <ul class="pricing__feature feature">
+                    <li class="feature__text">Pricing Feature</li>
+                    <li class="feature__text">Pricing Feature</li>
+                    <li class="feature__text">Pricing Feature</li>
+                    <li class="feature__text">Pricing Feature </li>
+                    <li class="feature__text">Pricing Feature </li>
+                  </ul>
+                  <a href="#" class="pricing__order-button standard-button">
+                    Order Now
+                  </a>
+                </div>
+              
+                <div class="pricing__plan">
+                  <p class="pricing__sub-title">Business</p>
+                  <p class="pricing__text">Organize across all apps by hand</p>
+                  <div class="pricing__plan-price">
+                     <p class="huge-numbers">99</p>
+                     <p class="pricing__period"><span class="dollar-signs">$</span> Per Month</p>
+                 </div>
+              
+                  <ul class="pricing__feature feature">
                     <li class="feature__text">Pricing Feature</li>
                     <li class="feature__text">Pricing Feature</li>
                     <li class="feature__text">Pricing Feature</li>
                     <li class="feature__text">Pricing Feature</li>
                     <li class="feature__text">Pricing Feature</li>
-                </ul>
-                <a href="#" class="business-plan__order-button">Order Now</a>
-
-            </div>
+                  </ul>
+                  <a href="#" class="pricing__order-button">
+                    Order Now
+                  </a>
+                </div>
+            </div>              
         </section>
 
         <section id="contacts" class="contact-us">
@@ -182,23 +195,29 @@
                     <img class="social-networks__facebook" src="img/facebook.jpg" alt="Facebook social network logo">
                     <img class="social-networks__linkedin" src="img/linkedin.jpg" alt="Linkedin social network logo">
                 </div>
-                <div class="contact-us__details detail">
-                    <img class="details__map-pointer" src="img/pointer.jpg" alt="Small map pointer sign">
-                    <p class="details__text">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
-                    <img class="details__phone-img" src="img/phone.jpg" alt="Smartphone sign">
-                    <p class="details__phone-number">(843) 555-0130</p>
-                    <img class="details__envelope-img" src="img/email.jpg" alt="Small envelope sign">
-                    <p class="details__email">willie.jennings@example.com</p>
+                <div class="contact-us__details details">
+                    <div class="details__container">
+                        <img class="details__map-pointer details-img" src="img/pointer.jpg" alt="Small map pointer sign">
+                        <p class="details__text details-text">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+                    </div>
+                    <div class="details__container">
+                       <img class="details__phone-img details-img" src="img/phone.jpg" alt="Smartphone sign">
+                       <p class="details__phone-number details-text">(843) 555-0130</p>
+                    </div>
+                    <div class="details__container">
+                       <img class="details__envelope-img" src="img/email.jpg" alt="Small envelope sign">
+                       <p class="details__email details-text">willie.jennings@example.com</p>
+                    </div>                                          
                 </div>
 
                 <div class="contact-us__form form">
                     <p class="form__title">Contact Us</p>
-                    <form>
-                        <p><input type="text" name="user-name" placeholder="Your Name" required></p>
-                        <p><input type="text" name="user-email-address" placeholder="Your Email" required></p>
-                        <p><textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea></p>
-                        <input type="submit" value="Send">
+                    <form class="form__card">
+                        <p><input type="text" class="user-info" name="user-name" placeholder="Your Name" required></p>
+                        <p><input type="text" class="user-info" name="user-email-address" placeholder="Your Email" required></p>
+                        <p><textarea name="message" class="user-message" placeholder="Your Message" cols="30" rows="10"></textarea></p>
                     </form>
+                    <input type="submit" class="submit-button" value="Send">
 
                 </div>
             </div>
@@ -233,15 +252,19 @@
                 <li class="name-list__item">Marvin Mckinney</li>
             </ul>
             <div class="footer__contact-details contact-details">
-                <img class="contact-details__map-pointer" src="img/pointer.jpg" alt="Small map pointer sign">
-                <p class="contact-details__info">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
-                <img class="contact-details__phone" src="img/phone.jpg" alt="Smartphone small sign">
-                <p class="contact-details__phone-number">(843) 555-0130</p>
+                <div class="contact-details-container">
+                    <img class="contact-details__map-pointer" src="img/map-pointer-footer.png" alt="Small map pointer sign">
+                    <p class="contact-details__info">7480 Mockingbird Hill undefined </p>
+                </div>
+                <div class="contact-details-container">
+                    <img class="contact-details__phone" src="img/smartphone-footer.png" alt="Smartphone small sign">
+                    <p class="contact-details__info">(843) 555-0130</p>
+                </div>
             </div>
             <div class="footer__social-net social-net">
-                <img class="social-net__twitter" src="img/twitter.jpg" alt="Twitter social network logo">
-                <img class="social-net__facebook" src="img/facebook.jpg" alt="Facebook social network logo">
-                <img class="social-net__linkedin" src="img/linkedin.jpg" alt="Linkedin social network logo">
+                <img class="social-net__twitter" src="img/twitter-white-logo.png" alt="Twitter social network logo">
+                <img class="social-net__facebook" src="img/facebook-white-logo.png" alt="Facebook social network logo">
+                <img class="social-net__linkedin" src="img/instagram-white-logo.png" alt="Linkedin social network logo">
             </div>
         </div>
 

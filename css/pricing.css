@@ -1,0 +1,134 @@
+.pricing {
+    background-color: var(--background-color);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+.sub-plan__title {
+    color: var(--light-text-color);
+    font-size: var(--title-font-size);
+    font-weight: 400;
+    text-align: center;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    padding-top: 80px;
+}
+
+.sub-plan__text {
+    color: var(--light-text-color);
+    font-size: var(--sub-title-font-size);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 27px;
+}
+
+.pricing__container {
+    padding-bottom: 100px;
+}
+
+.pricing__plan {
+    background-color: var(--light-text-color);
+    max-width: 330px;
+    border-radius: 10px;
+    margin: 0 auto 30px;
+    padding: 40px 0 30px;
+}
+
+.pricing__standard-plan {
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin: 0 auto 30px;
+    max-width: 330px;
+    padding: 40px 0 30px;
+}
+
+@media (min-width: 860px) {
+    .pricing__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing__plan {
+        margin-left: 10px; 
+        margin-right: 10px;
+        width: 370px;
+    }
+
+    .pricing__standard-plan {
+        margin-left: 10px; 
+        margin-right: 10px;
+        width: 370px;
+        padding-bottom: 50px;
+    }
+}
+
+.pricing__sub-title {
+    font-size: var(---sub-title-font-size);
+    font-weight: 700;
+    text-align: center;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.pricing__text {
+    font-size: var(--input-form-font-size);
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing__plan-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.huge-numbers {
+    font-size: var(--huge-numbers-font-size);
+    font-weight: 700;
+}
+
+.dollar-signs {
+    font-size: var(--button-text-font-size);
+    font-weight: 700;
+}
+
+.pricing__period {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.feature {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 40px;
+    line-height: 28px;
+}
+
+.pricing__order-button {
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    font-size: var(--button-text-font-size);
+    font-weight: 700;
+    text-decoration: none;
+    width: 236px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px 0px;
+    border-radius: 35px;
+    margin: 69px auto 30px;
+}
+
+.standard-button {
+    background-color: var(--light-text-color);
+    color: var(--accent-color);
+}

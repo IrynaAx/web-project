@@ -19,7 +19,10 @@
     --small-elements-font-size: 18px;
     --button-text-font-size: 20px;
     --input-form-font-size: 12px;
-    font-family: 'Nunito Sans', sans-serif;
+    --medium-font-size: 14px;
+    --huge-numbers-font-size: 70px;
+    --background-color: #252B42;
+    font-family: 'Nunito Sans', sans-serif; 
     color: var(--main-color);
     scroll-behavior: smooth;
 }
@@ -27,11 +30,6 @@
 img {
     display: block;
     width: 100%;
-}
-
-.container {
-    max-width: 1000px;
-    margin: auto;
 }
 
 .try-button {
@@ -45,7 +43,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 13px 0px;
+    padding: 11px 0px;
     border-radius: 35px;
     margin: 69px auto;
 }
